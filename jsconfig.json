@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "types": ["vuetify"],
+  //   "isCustomElement": {
+  //     "tagName":{
+  //         return "tagName" === 'vue-advanced-chat' || tagName === 'emoji-picker'
+  //   }
+  // }
+    
+  }
+}

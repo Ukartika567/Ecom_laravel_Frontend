@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@use "sass:math";
+
+
+
+ 
+   $dimension: strip-units(10em);
+
+ 
+   $dimension: 10;
+
+
+
+@function strip-units($value) {
+  @return math.div($value, $value * 0 + 1);
+}
